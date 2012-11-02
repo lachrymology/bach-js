@@ -17,7 +17,7 @@
     "swank": "node node_modules/swank-js",
     "test": "vows --spec --isolate"
   },
-  "main": "./lib/bach.js",
+  "main": "./lib/main",
   "keywords": [
     "macros",
     "functional programming",

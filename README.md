@@ -1,7 +1,7 @@
 bach.js
 =======
 
-something to do with JavaScript.. something to do with macros.
+`defmacro`-esque macros for JavaScript.
 
 ```javascript
 
