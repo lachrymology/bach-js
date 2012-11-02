@@ -1,0 +1,35 @@
+{
+  "name": "bach.js",
+  "version": "0.0.1",
+  "description": "JavaScript macrology",
+  "homepage": "http://www.fogus.me/",
+  "contributors": [
+    "Fogus <me@fogus.me> (<http://www.fogus.me>)"
+  ],
+  "dependencies": {
+    "underscore": ">= 1.4.2",
+    "swank-js": ">=0.0.1"
+  },
+  "devDependencies": {
+    "vows"    :  "0.5.x"
+  },
+  "scripts": {
+    "swank": "node node_modules/swank-js",
+    "test": "vows --spec --isolate"
+  },
+  "main": "./lib/bach.js",
+  "keywords": [
+    "macros",
+    "functional programming",
+    "underscore"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fogus/bach.js.git"
+  }
+}
+
